@@ -1,6 +1,6 @@
 # 🧠 BBC News Text Classification using LSTM
 
-This project is a Natural Language Processing (NLP) application that classifies news articles from the BBC dataset into one of five categories: **business**, **entertainment**, **politics**, **sport**, or **tech** using a **Recurrent Neural Network (RNN)** built with TensorFlow/Keras.
+This project is a Natural Language Processing (NLP) application that classifies news articles from the BBC dataset into one of five categories: **business**, **entertainment**, **politics**, **sport**, or **tech** using a **Long Short Term Memory (LSTM)** built with TensorFlow/Keras.
 
 ---
 
