@@ -61,15 +61,12 @@ This project is a Natural Language Processing (NLP) application that classifies 
 
 ```python
 Sequential([
-    Embedding(vocab_size, embedding_dim, input_length=sequence_length),
-    Dropout(0.2),
-    SimpleRNN(units=64, return_sequences=True),
-    Dropout(0.2),
-    SimpleRNN(units=64),
-    Dropout(0.2),
-    Dense(64, activation='relu'),
-    Dropout(0.2),
-    Dense(5, activation='softmax')
+    (Embedding(vocab_size, embedding_dim))
+    (Bidirectional(LSTM(64, return_sequences=True)))
+    (GlobalMaxPool1D())
+    (Dense(64, activation='relu'))
+    (Dropout(0.5))
+    (Dense(5, activation='softmax'))
 ])
 
 
