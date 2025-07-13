@@ -49,16 +49,6 @@ This project is a Natural Language Processing (NLP) application that classifies 
 
 <img width="653" height="682" alt="لقطة شاشة 2025-07-13 074618" src="https://github.com/user-attachments/assets/bab3afb0-d957-4d50-8288-7fcb6484be7b" />
 
-
-
-<img width="679" height="566" alt="لقطة شاشة 2025-07-13 074601" src="https://github.com/user-attachments/assets/1b9621ba-47ea-4ad6-b4ab-b0cb057f1493" />
-
-
-
-
-
-
-
 ```python
 Sequential([
     (Embedding(vocab_size, embedding_dim))
@@ -104,5 +94,7 @@ Precision, Recall, and F1-score per class
 Confusion Matrix:
 
 Visualized with Seaborn heatmap
+```
 
+<img width="679" height="566" alt="لقطة شاشة 2025-07-13 074601" src="https://github.com/user-attachments/assets/1b9621ba-47ea-4ad6-b4ab-b0cb057f1493" />
 
